@@ -1,0 +1,42 @@
+.contenedor{
+padding:30px;
+}
+.formulario{
+display:flex;
+gap:10px;
+margin-bottom:30px;
+}
+input{
+padding:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+button {
+padding:10px 15px;
+border:none;
+background:#1976d2;
+color:white;
+cursor:pointer;
+border-radius:5px;
+}
+button:hover{
+background:#0d47a1;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+th{
+background:#1976d2;
+color:white;
+}
+td,th{
+border:1px solid #ddd;
+padding:10px;
+}
+.eliminar{
+background:red;
+}
+.eliminar:hover{
+    background:darkred;
+}
